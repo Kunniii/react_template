@@ -12,6 +12,8 @@ dist
 dist-ssr
 *.local
 
+**/*.min.js
+
 # Editor directories and files
 .idea
 .DS_Store
