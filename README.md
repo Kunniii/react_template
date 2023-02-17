@@ -14,7 +14,9 @@ This template has:
 
 To get started, future me, please follow these steps. Trust me, it's not that hard.
 
-1. Clone this repo
+1. Clone this repo. Because this repo will contain `.yarn/cache/`, this will make cloning slow.
+   1. With cached files: `git clone --depth 1 https://github.com/Kunniii/react-template`
+   2. If you don't want to clone the cached files: `git clone --depth 1 -b no-cache https://github.com/Kunniii/react-template`
 2. Remove folder `.git/`
 3. Run `git init`
 4. Make sure that you have an existing repo on your GitHub. Two ways to get this done:
