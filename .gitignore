@@ -23,7 +23,6 @@ dist-ssr
 
 # yarn 2 ignores
 .yarn/*
-!.yarn/cache
 !.yarn/patches
 !.yarn/plugins
 !.yarn/releases
