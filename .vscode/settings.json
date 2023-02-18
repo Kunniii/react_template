@@ -15,5 +15,8 @@
   "prettier.singleQuote": false,
   "prettier.endOfLine": "crlf",
   "prettier.arrowParens": "always",
-  "prettier.singleAttributePerLine": true
+  "prettier.singleAttributePerLine": true,
+  "[*]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
